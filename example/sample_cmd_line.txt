@@ -1,0 +1,1 @@
+py ..\mmap_to_partitionfunction_problem_creator.py -u 1a0r_prepped_00031_F1_N0_E0_MMAP.uai -q 1a0r_prepped_00031_F1_N0_E0_MMAP.uai.query -n 100
