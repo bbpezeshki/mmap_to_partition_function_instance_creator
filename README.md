@@ -16,6 +16,7 @@ Within the main folder, there is an "example" folder for which the script has be
     * Formulation 3: parition function formulation where MAP variables now have a domain size of 0.  Factors that used to contain the MAP variables have been reduced in scope to exclude them based on the instantiation.
 
 The newly generated file's filenames are: 
+
 &nbsp;&nbsp;&nbsp;&nbsp;	the original filename (without .uai or _MMAP if either were present) \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		+ \
 &nbsp;&nbsp;&nbsp;&nbsp;	_[######]_ (a number with leading zeros that indicates how the MAP variables were assigned)\
