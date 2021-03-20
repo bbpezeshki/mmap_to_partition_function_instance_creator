@@ -1,1 +1,7 @@
 py ..\mmap_to_partitionfunction_problem_creator.py -u 1a0r_prepped_00031_F1_N0_E0_MMAP.uai -q 1a0r_prepped_00031_F1_N0_E0_MMAP.uai.query -n 100
+
+	-u is the UAI file argument
+	-q is the query file argument (file outlining the MAP variables in accordance to UAI format)
+	-n is the maximum number of partition function problems to be generated (the program iterates all combinations of MAP variable assignments to generate the partition function problems)
+	* the program is currently formulating the partition function problems in three ways (Formulation 1, 2, and 3, see README.md) however one particular format can be specified via the -z command line argument
+	* the optional -o commandline argument can be used to specify a specific output directory
